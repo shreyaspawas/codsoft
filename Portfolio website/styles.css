@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(29, 5, 63);
+    color: white;
+    font-family: 'popoins',sans-serif;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(138, 55, 239);
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+
+  }
+  nav ul li{
+    list-style: none;
+    margin: 24px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover{
+    font-size: 1.04rem;
+    color: rgb(91, 91, 247);
+  }
+  .left{
+   font-size: 1.5rem;                                              
+  }
+  #firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin:  70px 0;
+    align-items: center;
+
+  }
+  .leftSection{
+    font-size: 3rem;
+    margin: 30px;
+
+  }
+  .leftSection .btn{
+    padding: 8px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size:16px;
+    cursor:pointer;
+  }
+  .leftSection .button{
+    padding: 22px;
+  }
+  #firstSection > div{
+    width: 30%;
+  }
+  .rightSection img{
+   width:  350px;
+   margin: 50px 0;
+   border-radius: 20%;
+   height: 300px;
+  }
+  .purple{
+    color: rgb(161, 56, 253);
+  }
+  
+  #element{
+    color:rgb(121, 44, 214)
+  }
+  #secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 400px;
+  }
+  #secondSection h1{
+    font-size: 2.1rem;
+    color: rgb(128, 0, 79)4, 0, 128;
+  }
+  #secondSection img{
+    border-radius: 90%;
+    height: 300px;
+    padding: 15px;
+  }
+  #secondSection #about{
+    width:400px;
+    height: 300px; 
+    border: 1px solid #ccc; 
+    padding: 25px; 
+    box-sizing: border-box;
+    background-color: white;
+    color: #000000;
+     left: 600px;
+    border-radius: 10%;
+     position: relative;
+     bottom: 300px;     
+  }
+  #secondSection p{
+    font: size 3.1rem;
+    font-style: inherit;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;  
+    }
+  #thirdsection {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 70px 0;
+    height: 1000px;
+  }
+  
+  #thirdsection .thirdsection-content {
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+  }
+  #thirdsection .thirdsection-content pre{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  #thirdsection h1 {
+    font-size: 2.1rem;
+    color: rgb(128, 0, 79);
+  }
+  
+  #thirdsection #vertical-line {
+    border-left: 2px solid #333;
+    height: 200px;
+    position: relative;
+    margin: 20px 0; /* Adjust the margin as needed */
+  }
+  
+  #thirdsection #vertical-line img {
+    position: relative;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-radius: 10%;
+    height: 50px;
+  }
+  
+  #fourthsection h1{
+    font-size:xx-large;
+    color: green;
+  }
+  #fourthsection .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1px;
+    padding: 32px;
+    
+}
+
+#fourthsection .skill {
+    flex-basis: calc(18% - 10px); 
+    background-color: #fff;
+    padding: 28px;
+    border-radius: 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    height: 70px;
+}
+
+#fourthsection .skill:hover {
+    transform: scale(1.05);
+}
+
+#fourthsection .skill-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+#fourthsection .skill-bar {
+    background-color: #f0f0f0;
+    height: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#fourthsection .skill-bar-inner {
+    background-color: #007BFF;
+    height: 100%;
+}
+
+
+main hr {
+    border: 0;
+    background: rgb(96, 30, 196);
+    height: 1.2px;
+    margin: 40px 0;
+}
+
+#fourthsection {
+    max-height: 500px;
+    width:100%;
+
+    
+}
+#fifthsection {
+  height: 300px;
+  width: 100%;
+}
+#fifthsection h1{
+  font-size: xx-large;
+  color:aqua;
+}
+#fifthsection .btn {
+  padding: 30px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size:16px;
+  cursor:pointer;
+  width:40%;
+  margin: 40px;
+}
+#sixthsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+}
+
+#sixthsection .container {
+  width: 50%;
+  height: 100%;
+}
+#sixthsection .container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+#sixthsection .contact {
+  width: 40%;
+  padding: 30px;
+  background-color: rgb(244, 242, 242);
+  border-radius: 10px;
+}
+
+#sixthsection .contact label {
+  font-size:x-large;
+  text-align: center;
+  color: rgb(128, 0, 79);
+  margin-bottom: 12px;
+}
+
+#sixthsection .contact input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#sixthsection .contact textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  height: 100px;
+}
+
+#sixthsection .contact input[type="submit"] {
+  padding: 25px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 60%;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

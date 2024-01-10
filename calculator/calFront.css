@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.calculator {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
+    background-color: #94d6ec; /* Light Blue background color */
+    overflow: hidden;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #97d2f2;
+    padding: 10px;
+}
+
+#display {
+    flex: 1;
+    font-size: 24px;
+    width: 15px;
+    height: 50px;
+    border: none;
+    text-align: right;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+
+#clear {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    background-color: #2196F3; /* Blue color for the clear button */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 0 5px 5px 0;
+}
+
+#clear:hover {
+    background-color: #1565C0; /* Darker blue on hover */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #ddecf5;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: rgb(35, 175, 226)
+}
+
+button:focus {
+    outline: none;
+}
